@@ -1,0 +1,23 @@
+.header-contacts {
+    display: flex;
+    column-gap: 50px;
+    margin-left: auto;
+}
+
+.header-contacts__link {
+    color: $secondary-font-color;
+    display: flex;
+    align-items: center;
+    &:hover,
+    &:focus {
+        color: $accent-color;
+    }
+}
+
+.header-contacts__icon {
+    fill: currentColor;
+    margin-right: 10px;
+    .header-contacts__link:hover &, .header-contacts__link:focus &{
+        fill: $accent-color;
+    }
+}

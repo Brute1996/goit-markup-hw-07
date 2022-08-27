@@ -1,0 +1,17 @@
+.feature-section__item {
+    width: calc((100% - 90px)/4);
+}
+
+.feature-section__title {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.feature-section__text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: $secondary-font-color;
+}

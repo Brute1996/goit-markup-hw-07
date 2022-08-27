@@ -1,0 +1,26 @@
+.header-nav {
+    display: flex;
+    column-gap: 94px;
+}
+
+.header-nav__list {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+}
+
+.header-nav__item {
+    position: relative;
+}
+
+.header-nav__link {
+    &:hover,
+    &:focus {
+        color: $accent-color;
+    }
+}
+
+
+
+
+
